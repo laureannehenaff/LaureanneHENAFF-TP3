@@ -26,7 +26,7 @@ int main() {
         printf("\n %i",notes[l]);
     }
     for (int i = 1 ; i<=NBMAXNOTES ; i++) {  //programme tourne pour 30 notes
-        printf("\n Entrer la note  no %d :",i);
+        printf("\n Entrer la note  n°%d :",i);
         scanf("%f",&note);
         j=i-1;
         notes[j]=note;
